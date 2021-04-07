@@ -1,6 +1,8 @@
 # connect-four
 [Check it out](https://gameconnectfour.herokuapp.com/)
 
+Tech Stack used: JavaScript (ES6), HTML, CSS
+
 
     •	Built a full web-application.  
     •	It is a multi-player game allowing the user to select their choice of color.

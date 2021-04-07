@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../static/connect4oo.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: rgb(2, 81, 170);">
+
+    <div class="container my-3 text-light">
+
+        <h1 class="display-1">Connect Four</h1>
+        <h3 class="turn display-4">Player One's Turn</h3>
+        <div>
+            <label for="p1-color">Player 1
+                <input id="p1-color" class="form-control" placeholder="Player 1 color" required="required"></label>
+            <label>Player 2
+                <input id="p2-color" class="form-control" placeholder="Player 2 color" required="required"></label>
+            <button id="start-game" class="btn btn-primary mx-2">Start Game!</button>
+        </div>
+
+
+        <div id="game" class="container">
+            <table id="board" class=" mb-3"></table>
+        </div>
+    </div>
+    <script src="../static/connect4oo.js"></script>
+</body>
+
+</html>
